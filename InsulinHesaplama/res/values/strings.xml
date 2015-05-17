@@ -5,7 +5,8 @@
     <string name="font">sans-serif-condensed</string>
     <string name="txtAcilis">Şeker, şekerlikte güzeldir;\n\n\t\t\t\t\t\t\t\t\tkanınızda değil!</string>
     <string name="btnGiris">Şifreniz</string>
-    <string name="btnKahvalti">Kahvaltı</string>
+    <string name="btnKahvalti">Sabah</string>
+    <string name="btnOgle">Öğle</string>
     <string name="btnAksam">Akşam</string>
     <string name="btnRaporlama">Raporlama</string>
     <string name="chkPeynir">Peynir</string>
@@ -42,5 +43,13 @@
     <string name="btnKaydet">Kaydet</string>
     <string name="txtGrafik">Grafik</string>
     <string name="txtAnaliz">Raporlar</string>
+    <string name="aylar">Aylar</string>
+    <string name="aksCorba">Çorbalar</string>
+    <string name="aksPilav">Pilav ve Makarna</string>
+    <string name="aksYemek">Ana Yemekler</string>
+    <string name="aksMeyve">Meyveler</string>
+    <string name="aksTatli">Tatlılar</string>
+    <string name="aksIcecekler">İçecekler</string>
+    
 
 </resources>

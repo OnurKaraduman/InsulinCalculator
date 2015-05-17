@@ -11,5 +11,7 @@
     <dimen name="paddinLeft">48dp</dimen>
     <dimen name="rowMargin">5dp</dimen>
     <dimen name="rowLeft">35dp</dimen>
+    <dimen name="temp">60dp</dimen>
+    <dimen name="temp2">68dp</dimen>
 
 </resources>

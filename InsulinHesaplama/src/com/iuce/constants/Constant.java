@@ -1,7 +1,7 @@
 package com.iuce.constants;
 
 public class Constant {
-	public static long SLEEP_TIME = 2500; // Thread Calisma Suresi
+	public static long SLEEP_TIME = 500; // Thread Calisma Suresi
 	public static String PACKAGE_NAME = "com.iuce.insulinHesaplama";
 	public static String PROJECT_TAG = "DiaryProject";
 
@@ -45,8 +45,8 @@ public class Constant {
 	public static int kalorisut = 45;
 
 	// Ýlaçlarýn deðerleri...
-	public static double lantus = 30.1;
-	public static double humulin = 62;
+	public static double lantus = 0;
+	public static double humulin = 0;
 
 	// Aylar...
 	public static String aylar[] = { null, "Ocak", "Þubat", "Mart", "Nisan",
@@ -59,5 +59,37 @@ public class Constant {
 	// Raporlama için Sabit...
 	public static int karar;
 	public static String secim;
+
+	// Yiyecekler
+	public static String corbalar[] = { null, " Mercimek ", " Ezogelin ",
+			" Yayla ", " Tarhana ", "Domates" };
+	public static String pilavlar[] = { null, " Pirinç ", " Bulgur",
+			" Makarna", " Keþkek ", "Mantý", "Salata" };
+	public static String yemekler[] = { null, " Sarma ", " Dolma",
+			" Karadeniz Pidesi", " Lahmacun ", "Pide", "Ýskender",
+			"Urfa - Adana", "Çifköfte", "Tas Kebabý", "Hünkar Beðendi",
+			"Kadýnbudu Köfte", "Ýzmir Köfte", "Fýrýn Tavuk(Sade)", "Mücver",
+			"Ýmam Bayýldý", "Karnýyarýk", "Nohut", "Bezelye" };
+	public static String meyveler[] = { null, " Elma ", " Kayýsý ", " Ýncir ",
+			" Kiraz ", "Portakal", "Limon", "Mandalina", "Üzüm", "Erik",
+			"Þeftali", "Armut", "Kavun", "Karpuz", "Kestane" };
+	public static String tatlilar[] = { null, " Kuru Pasta ", " Kek ",
+			" Piþmaniye ", " Yaþ Pasta ", "Dondurma", "Tulumba", "Þekerpare",
+			"Revani", "Sütlaç", "Aþure", "Baklava", "Kadayýf", "Muhallebi",
+			"Kazandibi" };
+	public static String icecekler[] = { null, " Salep ", " Boza", " Kola",
+			" Gazoz ", "Ayran", "Bira", "Raký", "Þarap" };
+
+	// Kaloriler
+	public static double corbalarKalori[] = { 22.5, 24.5, 19.9, 13.4, 14.3 };
+	public static double pilavlarKalori[] = { 48, 40, 39.1, 40, 51, 7 };
+	public static double yemeklerKalori[] = { 35, 34.6, 65, 40, 60, 80, 95, 10,
+			18, 10, 25, 12.4, 0, 10, 7, 7, 16.4, 15 };
+	public static double meyvelarKalori[] = { 14.5, 15.3, 16.3, 15.3, 15.2,
+			8.2, 17.4, 17.3, 14, 14.5, 15.3, 15.4, 12.8, 53 };
+	public static double tatlilarKalori[] = { 10, 30, 83.2, 75, 9, 50, 25, 75,
+			45, 50, 17, 75, 29.7, 40 };
+	public static double iceceklerKalori[] = { 21, 57.5, 36.9, 40.3, 7.5, 3.8,
+			0.5, 4.2 };
 
 }

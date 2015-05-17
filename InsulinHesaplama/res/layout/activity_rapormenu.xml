@@ -29,7 +29,7 @@
                     android:gravity="center" />
 
                 <TextView
-                    android:id="@+id/textView1"
+                    android:id="@+id/txtCorba"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@string/font"
@@ -59,7 +59,7 @@
                     android:gravity="center" />
 
                 <TextView
-                    android:id="@+id/textView2"
+                    android:id="@+id/txtPilav"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@string/font"

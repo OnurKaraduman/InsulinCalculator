@@ -10,6 +10,7 @@ import android.widget.Button;
 public class MainActivity extends Activity {
 
 	public Button btnKhvlt;
+	public Button btnOgle;
 	public Button btnAksam;
 	public Button btnRapor;
 	private Intent intent;
@@ -20,6 +21,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		btnKhvlt = (Button) findViewById(R.id.btnkah);
+		btnOgle = (Button) findViewById(R.id.btnOgle);
 		btnAksam = (Button) findViewById(R.id.btnaks);
 		btnRapor = (Button) findViewById(R.id.btnrap);
 
@@ -29,6 +31,16 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 				intent = new Intent(MainActivity.this, KahvaltiActivity.class);
+				startActivity(intent);
+			}
+		});
+		
+		btnOgle.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				intent = new Intent(MainActivity.this, AksamActivity.class);
 				startActivity(intent);
 			}
 		});

@@ -179,7 +179,7 @@ public class OlcumActivity extends Activity {
 
 	public double hesaplama(double kalori, double ilac, double kanSekeri) {
 		double sonuc = 0;
-		sonuc = kalori + ilac + kanSekeri;
+		sonuc = (kalori / 10) + ((kanSekeri - 100) / 30);
 		return sonuc;
 
 	}
