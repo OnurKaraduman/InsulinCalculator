@@ -1,12 +1,15 @@
 package com.iuce.main;
 
+import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.regex.Pattern;
+
 import com.example.insulinhesaplama.R;
 import com.iuce.constants.Constant;
 import com.iüce.control.InsulinOperations;
 import com.iüce.entity.Insulin;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -73,8 +76,10 @@ public class OlcumActivity extends Activity {
 				} else {
 					kanSekeri = Double.parseDouble((edtKanseker.getText()
 							.toString()));
-
-					date = gunCevirici();
+					SimpleDateFormat simple = new SimpleDateFormat(
+							"dd.MMM.yyyy kk-mm-ss");
+					Date d = new Date();
+					date = simple.format(d);
 
 					if (selectedId == radioLantus.getId()) {
 
@@ -180,6 +185,8 @@ public class OlcumActivity extends Activity {
 	public double hesaplama(double kalori, double ilac, double kanSekeri) {
 		double sonuc = 0;
 		sonuc = (kalori / 10) + ((kanSekeri - 100) / 30);
+		sonuc = Math.ceil(sonuc);
+		System.out.println("--------------->"+sonuc);
 		return sonuc;
 
 	}
